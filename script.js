@@ -11,6 +11,7 @@ const shopping_list =['latte', 'uova', 'pane', 'pasta', 'passata di pomodoro', '
     const li= document.createElement('li');
     li.innerText = shopping_list[i];
     ul.appendChild(li);
+    i++;
  }
 
  
