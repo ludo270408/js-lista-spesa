@@ -5,3 +5,12 @@ const shopping_list =['latte', 'uova', 'pane', 'pasta', 'passata di pomodoro', '
  //Contatore
  let i=0;
  
+ //Stampa la lista finché si verifica la condizione
+
+ while(i<shopping_list.length){
+    const li= document.createElement('li');
+    li.innerText = shopping_list[i];
+    ul.appendChild(li);
+ }
+
+ 
